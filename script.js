@@ -6,7 +6,7 @@
 
     
     const fotosBarberos = {
-   Carlos: "assets/carlos.jpg",
+   david: "assets/david.jpg",
     Miguel: "assets/miguel.jpg"
     };
 
