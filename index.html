@@ -5,7 +5,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Barbearia Supreme 1</title>
+=======
+    <title>Supreme Barbershop</title>
+>>>>>>> 7e69fdf114c1cf4a55dd7f10466027e2f5633264
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -31,7 +35,7 @@
             flex-direction: column;
         }
 
-        /* Overlay elegante */
+        
         body::before {
             content: "";
             position: absolute;
@@ -39,7 +43,7 @@
             background:
                 linear-gradient(
                     to bottom,
-                    rgba(0, 0, 0, 0.55),
+                    rgba(0, 0, 0, 0.54),
                     rgba(0, 0, 0, 0.548),
                     rgba(0, 0, 0, 0.514)
                 );
@@ -55,7 +59,7 @@
             z-index: 1;
         }
 
-        /* HEADER */
+        
         header {
             text-align: center;
             padding: 25px 20px;
@@ -113,7 +117,7 @@
             font-weight: 300;
         }
 
-        /* CONTEÚDO PRINCIPAL */
+        
         main {
             flex: 1;
             display: flex;
@@ -155,37 +159,37 @@
 
         h2{
       
-        color: rgb(204, 204, 204);
+        color: rgba(204, 204, 204, 0.936);
         
         z-index: 10;        
         
         }
 
 
-/* El contenedor fija el texto en el lugar exacto de tu imagen */
+
 .contenedor-posicion {
     width: 100%;
     display: flex;
     justify-content: center;
     
-    /* CONTROLADOR DE POSICIÓN: Ajusta este % si quieres moverlo más arriba o abajo */
-    margin-top: 6vh; /* Se adapta al alto de cualquier pantalla de celular o PC */
+    
+    margin-top: 6vh; 
 }
 
-/* El h2 se adapta de tamaño para nunca desacomodarse */
+
 .contenedor-posicion h2 {
     width: 90%;
     max-width: 800px;
     text-align: center;
     margin: 0;
     
-    /* TAMAÑO RESPONSIVO: Se encoge en celulares y crece en monitores solo */
+    
     font-size: clamp(2.2rem, 5vw, 4rem); 
 }
 
         
 
-        /* TEXTO */
+        
         .card-apresentacao p {
             max-width: 650px;
 
@@ -199,7 +203,7 @@
             margin-bottom: 30px;
         }
 
-        /* BOTÃO */
+        
         .btn {
             display: inline-block;
 
@@ -230,60 +234,57 @@
                 0 7px 30px rgba(202, 8, 95, 0.795);
         }
 
-        /* FOOTER */
         
-           /* Contenedor principal del footer */
+           
 .footer-barberia {
-  background-color: #1a1a1ac0; /* Fondo oscuro elegante */
-  color: #ffffff; /* Texto blanco */
-  padding: 30px 20px; /* Espacio interno arriba/abajo y lados */
-  text-align: center; /* Centra todo el contenido */
-  font-family: 'Arial', sans-serif; /* Tipografía limpia */
-  border-top: 1px solid #bc2d2dd3; /* Línea dorada decorativa arriba */
+  background-color: #1a1a1ac0; 
+  color: #ffffff; 
+  padding: 30px 20px; 
+  text-align: center; 
+  border-top: 1px solid #bc2d2dd3; 
+
 }
 
-/* Caja que centra y limita el ancho en pantallas grandes */
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column; /* Coloca un texto sobre el otro */
-  gap: 15px; /* Espacio de separación entre los dos textos */
+  flex-direction: column; 
+  gap: 15px; 
 }
 
-/* Estilo para el texto de la ubicación */
+
 .footer-location {
   font-size: 1rem;
   margin: 0;
-  color: #cccccc; /* Gris claro para que no compita con el enlace */
+  color: #cccccc; 
 }
 
-/* Estilo específico para el enlace de Google Maps */
+
 .footer-location a {
-  color: #646de7ee; /* Color dorado para el enlace (estilo barbería) */
-  text-decoration: none; /* Quita el subrayado feo por defecto */
+  color: #646de7ee; 
+  text-decoration: none; 
   font-weight: bold;
-  transition: color 0.3s ease; /* Efecto suave al pasar el cursor */
+  transition: color 0.3s ease; 
 }
 
-/* Efecto cuando el cliente pasa el mouse por encima del enlace */
+
 .footer-location a:hover {
-  color: #ffffff; /* Cambia a blanco brillante */
-  text-decoration: underline; /* Aparece un subrayado elegante */
+  color: #ffffff; 
+  text-decoration: underline; 
 }
 
-/* Estilo para los derechos reservados */
+
 .footer-rights {
-  font-size: 0.85rem; /* Letra un poco más pequeña */
-  color: #777777; /* Gris oscuro discreto */
+  font-size: 0.85rem; 
+  color: #777777; 
   margin: 0;
-  border-top: 1px solid #333333; /* Línea sutil de división */
-  padding-top: 15px; /* Espacio arriba de la línea */
+  border-top: 1px solid #333333; 
+  padding-top: 15px; 
 }
 
         
 
-        /* TABLETS */
         @media (max-width: 768px) {
 
             header {
@@ -311,7 +312,7 @@
             }
         }
 
-        /* CELULARES */
+       
         @media (max-width: 480px) {
 
             .card-apresentacao h2 {
@@ -334,7 +335,7 @@
    
 
     <header>
-        <h1>Barbearia Supreme</h1>
+        <h1>Supreme Barbershop</h1>
         <p>Agende seu horário em poucos cliques</p>
     </header>
 
@@ -358,10 +359,9 @@
 
     </main>
 
-    <!-- FOOTER -->
    <footer class="footer-barberia">
   <div class="footer-content">
-    <!-- Bloque de Ubicación -->
+    
     <p class="footer-location">
      Nossa localização : 
       <a href="https://maps.app.goo.gl/w9Q3JA3pLJuxtgeJ9" target="_blank" rel="noopener noreferrer">
@@ -369,9 +369,9 @@
       </a>
     </p>
     
-    <!-- Bloque de Derechos Reservados -->
+    
     <p class="footer-rights">
-      &copy; 2026 Barbería Supreme. Todos los derechos reservados.
+      &copy; 2026 Supreme Barbershop. Todos os dereitos reservados.
     </p>
   </div>
 </footer>

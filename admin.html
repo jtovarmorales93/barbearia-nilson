@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel Admin-Barbearia Supreme</title>
+    <title>Painel Admin-Supreme Barbershop</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
 
 
 
-    
+
     <header class="admin-header">
         <h1>Painel de Controle</h1>
         <p>Gerenciamento de horários e agenda em tempo real</p>
@@ -47,7 +47,7 @@
 
     <main class="admin-container">
 
-        <!-- SEÇÃO DE MÉTRICAS E FILTROS RÁPIDOS -->
+
         <section class="metricas">
             <div class="tarjeta-metrica">
                 <h3>Total de Horários</h3>
@@ -58,12 +58,11 @@
                 <h3>Filtrar por Barbeiro</h3>
                 <select id="filtro-barbero">
                     <option value="todos">Todos os profissionais</option>
-                    <option value="Carlos">Carlos</option>
+                    <option value="david">david</option>
                     <option value="Miguel">Miguel</option>
                 </select>
             </div>
 
-            <!-- CONTENEDOR: FILTROS DE FECHAS -->
             <div class="tarjeta-metrica filtro-fechas-contenedor">
                 <h3>Filtrar por Período</h3>
                 <div class="grupo-botones-fecha">
@@ -78,7 +77,7 @@
             </div>
         </section>
 
-        <!-- 🔥 NUEVO: AQUÍ ESTÁ LA TABLA REINTEGRADA QUE HACÍA FALTA -->
+
         <section class="tabla-contenedor">
             <h2>Lista de Agendamentos</h2>
             <table class="tabla-citas">
@@ -93,17 +92,21 @@
                         <th>Ação</th>
                     </tr>
                 </thead>
+
                 <tbody id="lista-citas-body">
-                    <!-- Dados do Firebase aparecerão aqui -->
+
+
+
                 </tbody>
+
             </table>
         </section>
 
     </main>
 
-    <!-- ========================================== -->
-    <!--      INTEGRAÇÃO COM FIREBASE               -->
-    <!-- ========================================== -->
+
+    <!--  INTEGRAÇÃO COM FIREBASE  -->
+
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
         import { getFirestore, collection, onSnapshot, doc, deleteDoc, query, orderBy } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
@@ -145,8 +148,9 @@
         }
     </script>
 
-    <!-- SCRIPT DO ADMIN -->
+
     <script type="module" src="admin-script.js"></script>
 
 </body>
+
 </html>
