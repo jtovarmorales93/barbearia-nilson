@@ -1,15 +1,8 @@
 :root {
-<<<<<<< HEAD
     --dorado-premium: #cfce6c;
     --dorado-brillante: #dcb950;
     --blanco-puro: #ffffff;
     --texto-secundario: #cccccc;
-=======
-    --dorado-premium: #dd7741cb;
-    --dorado-brillante: #d6bb51;
-    --blanco-puro: #dad0cfec;
-    --texto-secundario: #676767b5;
->>>>>>> 7e69fdf114c1cf4a55dd7f10466027e2f5633264
     --fuente-elegante: 'Poppins', sans-serif;
 }
 
@@ -84,13 +77,8 @@ html {
     left: 0;
     z-index: 10;
     padding: 8px 15px;
-<<<<<<< HEAD
     background: rgba(18, 17, 17, 0.95);
     border-bottom: 1px solid rgba(228, 177, 9, 0.356);
-=======
-    background: rgb(18, 17, 17);
-    border-bottom: 1px solid rgba(192, 10, 10, 0.553);
->>>>>>> 7e69fdf114c1cf4a55dd7f10466027e2f5633264
     position: fixed;
     width: 100%;
     min-height: 175px;
